@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000132] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000144] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000153] (-) JobUnselected: {'identifier': 'turtlesim_catch_them_all'}
+[0.000164] (my_robot_interface) JobQueued: {'identifier': 'my_robot_interface', 'dependencies': OrderedDict()}
+[0.000186] (my_robot_interface) JobStarted: {'identifier': 'my_robot_interface'}
+[0.006576] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'cmake'}
+[0.007453] (my_robot_interface) JobProgress: {'identifier': 'my_robot_interface', 'progress': 'build'}
+[0.007515] (my_robot_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/john/Documents/ros2_ws/build/my_robot_interface', '--', '-j16', '-l16'], 'cwd': '/home/john/Documents/ros2_ws/build/my_robot_interface', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'john'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/local/cuda/lib64:/home/john/Documents/ros2_ws/install/my_robot_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/john'), ('CONDA_SHLVL', '0'), ('OLDPWD', '/home/john/Documents/ros2_ws/src/my_robot_interface/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2582'), ('SYSTEMD_EXEC_PID', '2982'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_CE_M', ''), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4429'), ('COLCON_PREFIX_PATH', '/home/john/Documents/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'john'), ('JOURNAL_STREAM', '8:41893'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'john'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('_CE_CONDA', ''), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/usr/local/cuda/bin:/opt/ros/humble/bin:/home/john/anaconda3/condabin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/john:@/tmp/.ICE-unix/2963,unix/john:/tmp/.ICE-unix/2963'), ('INVOCATION_ID', 'b95fa334753d456bafa5d3595b1da4a3'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/john/Documents/ros2_ws/install/my_robot_bringup:/home/john/Documents/ros2_ws/install/my_py_pkg:/home/john/Documents/ros2_ws/install/my_robot_interface:/home/john/Documents/ros2_ws/install/my_cpp_pkg:/opt/ros/humble'), ('CONDA_PYTHON_EXE', '/home/john/anaconda3/bin/python'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:75c4ed16-6254-4932-afcf-71121f34c8fd'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/john/Documents/ros2_ws/build/my_robot_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CONDA_EXE', '/home/john/anaconda3/bin/conda'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:/home/john/Documents/ros2_ws/install/my_robot_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/john/Documents/ros2_ws/install/my_robot_bringup:/home/john/Documents/ros2_ws/install/my_robot_interface:/home/john/Documents/ros2_ws/install/my_cpp_pkg:/home/john/Documents/ros2_ws/install/my_py_pkg:/opt/ros/humble')]), 'shell': False}
+[0.023373] (my_robot_interface) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099492] (-) TimerEvent: {}
+[0.108403] (my_robot_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.109332] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.110821] (my_robot_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.127902] (my_robot_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199676] (-) TimerEvent: {}
+[0.269615] (my_robot_interface) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:59 (message):\n'}
+[0.269972] (my_robot_interface) StderrLine: {'line': b'  execute_process(/usr/bin/python3.10 -m rosidl_adapter --package-name\n'}
+[0.270029] (my_robot_interface) StderrLine: {'line': b'  my_robot_interface --arguments-file\n'}
+[0.270068] (my_robot_interface) StderrLine: {'line': b'  /home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter__arguments__my_robot_interface.json\n'}
+[0.270103] (my_robot_interface) StderrLine: {'line': b'  --output-dir\n'}
+[0.270138] (my_robot_interface) StderrLine: {'line': b'  /home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface\n'}
+[0.270174] (my_robot_interface) StderrLine: {'line': b'  --output-file\n'}
+[0.270209] (my_robot_interface) StderrLine: {'line': b'  /home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface.idls)\n'}
+[0.270242] (my_robot_interface) StderrLine: {'line': b'  returned error code 1:\n'}
+[0.270275] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270309] (my_robot_interface) StderrLine: {'line': b"  Error processing 'float32[[]] coords' of 'my_robot_interface/TurtleArray':\n"}
+[0.270352] (my_robot_interface) StderrLine: {'line': b"  'the size of array type '<=' must be a valid integer value > 0 optionally\n"}
+[0.270386] (my_robot_interface) StderrLine: {'line': b"  prefixed with 'float32[[]]' if it is only an upper bound'\n"}
+[0.270418] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270451] (my_robot_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.270486] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270522] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 268, in __init__\n'}
+[0.270556] (my_robot_interface) StderrLine: {'line': b'      self.array_size = int(array_size_string)\n'}
+[0.270591] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270625] (my_robot_interface) StderrLine: {'line': b"  ValueError: invalid literal for int() with base 10: ']'\n"}
+[0.270658] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270692] (my_robot_interface) StderrLine: {'line': b'  \n'}
+[0.270735] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270780] (my_robot_interface) StderrLine: {'line': b'  During handling of the above exception, another exception occurred:\n'}
+[0.270817] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270853] (my_robot_interface) StderrLine: {'line': b'  \n'}
+[0.270888] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270923] (my_robot_interface) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[0.270958] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.270994] (my_robot_interface) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main\n'}
+[0.271030] (my_robot_interface) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[0.271065] (my_robot_interface) StderrLine: {'line': b'    File "/usr/lib/python3.10/runpy.py", line 86, in _run_code\n'}
+[0.271099] (my_robot_interface) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[0.271135] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[0.271170] (my_robot_interface) StderrLine: {'line': b'      sys.exit(main())\n'}
+[0.271204] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[0.271238] (my_robot_interface) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[0.271272] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[0.271306] (my_robot_interface) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[0.271340] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[0.271374] (my_robot_interface) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[0.271410] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 520, in parse_message_string\n'}
+[0.271444] (my_robot_interface) StderrLine: {'line': b'      Type(type_string, context_package_name=pkg_name),\n'}
+[0.271480] (my_robot_interface) StderrLine: {'line': b'    File "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_adapter/parser.py", line 270, in __init__\n'}
+[0.271514] (my_robot_interface) StderrLine: {'line': b'      raise ex\n'}
+[0.271554] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.271595] (my_robot_interface) StderrLine: {'line': b"  TypeError: the size of array type '<=' must be a valid integer value > 0\n"}
+[0.271633] (my_robot_interface) StderrLine: {'line': b"  optionally prefixed with 'float32[[]]' if it is only an upper bound\n"}
+[0.271671] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.271706] (my_robot_interface) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.271749] (my_robot_interface) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[0.271788] (my_robot_interface) StderrLine: {'line': b'  CMakeLists.txt:12 (rosidl_generate_interfaces)\n'}
+[0.271835] (my_robot_interface) StderrLine: {'line': b'\n'}
+[0.271871] (my_robot_interface) StderrLine: {'line': b'\x1b[0m\n'}
+[0.271907] (my_robot_interface) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.271949] (my_robot_interface) StdoutLine: {'line': b'See also "/home/john/Documents/ros2_ws/build/my_robot_interface/CMakeFiles/CMakeOutput.log".\n'}
+[0.273644] (my_robot_interface) StderrLine: {'line': b'gmake: *** [Makefile:1611: cmake_check_build_system] Error 1\n'}
+[0.275637] (my_robot_interface) CommandEnded: {'returncode': 2}
+[0.299872] (-) TimerEvent: {}
+[0.353719] (my_robot_interface) JobEnded: {'identifier': 'my_robot_interface', 'rc': 2}
+[0.364205] (-) EventReactorShutdown: {}

@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000429] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000458] (-) JobUnselected: {'identifier': 'my_robot_bringup'}
+[0.000469] (-) JobUnselected: {'identifier': 'my_robot_interface'}
+[0.000478] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict([('my_robot_interface', '/home/john/Documents/ros2_ws/install/my_robot_interface')])}
+[0.000512] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[0.007653] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 1}
+[0.018128] (-) EventReactorShutdown: {}

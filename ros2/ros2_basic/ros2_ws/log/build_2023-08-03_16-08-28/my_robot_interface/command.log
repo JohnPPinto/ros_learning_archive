@@ -1,0 +1,2 @@
+Invoking command in '/home/john/Documents/ros2_ws/build/my_robot_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/john/Documents/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/john/Documents/ros2_ws/build/my_robot_interface -- -j16 -l16
+Invoked command in '/home/john/Documents/ros2_ws/build/my_robot_interface' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/john/Documents/ros2_ws/install/my_py_pkg:/opt/ros/humble /usr/bin/cmake --build /home/john/Documents/ros2_ws/build/my_robot_interface -- -j16 -l16

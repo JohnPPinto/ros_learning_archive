@@ -1,0 +1,81 @@
+[0.753s] Invoking command in '/home/john/Documents/ros2_ws/src/my_py_pkg': LD_LIBRARY_PATH=/home/john/Documents/ros2_ws/install/my_robot_interface/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/john/Documents/ros2_ws/build/my_py_pkg/prefix_override:/home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/john/Documents/ros2_ws/build/my_py_pkg/build install --record /home/john/Documents/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed
+[0.876s] running egg_info
+[0.876s] creating ../../build/my_py_pkg/my_py_pkg.egg-info
+[0.877s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[0.877s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[0.877s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[0.877s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[0.877s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[0.877s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.878s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.879s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[0.879s] running build
+[0.879s] running build_py
+[0.879s] creating /home/john/Documents/ros2_ws/build/my_py_pkg/build
+[0.879s] creating /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib
+[0.879s] creating /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.879s] copying my_py_pkg/add_two_ints_client_no_oop.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.879s] copying my_py_pkg/number_reset_counter.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.879s] copying my_py_pkg/smartphone.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.879s] copying my_py_pkg/add_two_ints_server.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.879s] copying my_py_pkg/add_two_ints_client.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.879s] copying my_py_pkg/battery_client.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/led_panel_server.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/number_counter.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/my_first_node.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/number_publisher.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/__init__.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/robot_news_station.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] copying my_py_pkg/hw_status_publisher.py -> /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg
+[0.880s] running install
+[0.880s] running install_lib
+[0.880s] creating /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client_no_oop.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_reset_counter.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/smartphone.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_server.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/add_two_ints_client.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/battery_client.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/led_panel_server.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_counter.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/my_first_node.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.880s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/number_publisher.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.881s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.881s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/robot_news_station.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.881s] copying /home/john/Documents/ros2_ws/build/my_py_pkg/build/lib/my_py_pkg/hw_status_publisher.py -> /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[0.881s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client_no_oop.py to add_two_ints_client_no_oop.cpython-310.pyc
+[0.881s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_reset_counter.py to number_reset_counter.cpython-310.pyc
+[0.882s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/smartphone.py to smartphone.cpython-310.pyc
+[0.882s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_server.py to add_two_ints_server.cpython-310.pyc
+[0.882s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/add_two_ints_client.py to add_two_ints_client.cpython-310.pyc
+[0.882s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/battery_client.py to battery_client.cpython-310.pyc
+[0.883s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/led_panel_server.py to led_panel_server.cpython-310.pyc
+[0.883s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_counter.py to number_counter.cpython-310.pyc
+[0.883s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/my_first_node.py to my_first_node.cpython-310.pyc
+[0.884s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/number_publisher.py to number_publisher.cpython-310.pyc
+[0.884s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[0.884s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/robot_news_station.py to robot_news_station.cpython-310.pyc
+[0.884s] byte-compiling /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/hw_status_publisher.py to hw_status_publisher.cpython-310.pyc
+[0.884s] running install_data
+[0.885s] creating /home/john/Documents/ros2_ws/install/my_py_pkg/share/ament_index
+[0.885s] creating /home/john/Documents/ros2_ws/install/my_py_pkg/share/ament_index/resource_index
+[0.885s] creating /home/john/Documents/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.885s] copying resource/my_py_pkg -> /home/john/Documents/ros2_ws/install/my_py_pkg/share/ament_index/resource_index/packages
+[0.885s] copying package.xml -> /home/john/Documents/ros2_ws/install/my_py_pkg/share/my_py_pkg
+[0.885s] running install_egg_info
+[0.886s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[0.886s] running install_scripts
+[0.899s] Installing add_two_ints_client script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing add_two_ints_client_no_oop script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing add_two_ints_server script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing battery_client script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing hw_status_publisher script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing led_panel_server script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing number_counter script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing number_publisher script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing number_reset_counter script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing py_node script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing robot_news_station script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] Installing smartphone script to /home/john/Documents/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[0.899s] writing list of installed files to '/home/john/Documents/ros2_ws/build/my_py_pkg/install.log'
+[0.916s] Invoked command in '/home/john/Documents/ros2_ws/src/my_py_pkg' returned '0': LD_LIBRARY_PATH=/home/john/Documents/ros2_ws/install/my_robot_interface/lib:/usr/local/cuda/lib64:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/john/Documents/ros2_ws/build/my_py_pkg/prefix_override:/home/john/Documents/ros2_ws/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/john/Documents/ros2_ws/build/my_py_pkg/build install --record /home/john/Documents/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed

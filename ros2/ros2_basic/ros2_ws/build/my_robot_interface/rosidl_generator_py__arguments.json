@@ -1,0 +1,36 @@
+{
+  "package_name": "my_robot_interface",
+  "output_dir": "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_generator_py/my_robot_interface",
+  "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:msg/HardwareStatus.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:msg/LedStatus.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:msg/Turtle.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:msg/TurtleArray.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:srv/ComputeRectangleArea.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:srv/LedControl.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface:srv/CatchTurtle.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/generate_py_impl.py",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/msg/HardwareStatus.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/msg/LedStatus.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/msg/Turtle.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/msg/TurtleArray.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/srv/ComputeRectangleArea.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/srv/LedControl.idl",
+    "/home/john/Documents/ros2_ws/build/my_robot_interface/rosidl_adapter/my_robot_interface/srv/CatchTurtle.idl"
+  ]
+}

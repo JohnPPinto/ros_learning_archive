@@ -1,0 +1,19 @@
+[0.328s] Invoking command in '/home/john/Documents/ros2_ws/build/turtlesim_catch_them_all': CMAKE_PREFIX_PATH=/home/john/Documents/ros2_ws/install/my_robot_interface:/home/john/Documents/ros2_ws/install/my_robot_bringup:/home/john/Documents/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/john/Documents/ros2_ws/install/my_robot_interface/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/john/Documents/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/john/Documents/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/john/Documents/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
+[0.462s] running develop
+[0.532s] running egg_info
+[0.532s] writing turtlesim_catch_them_all.egg-info/PKG-INFO
+[0.532s] writing dependency_links to turtlesim_catch_them_all.egg-info/dependency_links.txt
+[0.532s] writing entry points to turtlesim_catch_them_all.egg-info/entry_points.txt
+[0.532s] writing requirements to turtlesim_catch_them_all.egg-info/requires.txt
+[0.532s] writing top-level names to turtlesim_catch_them_all.egg-info/top_level.txt
+[0.534s] reading manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.561s] writing manifest file 'turtlesim_catch_them_all.egg-info/SOURCES.txt'
+[0.562s] running build_ext
+[0.562s] Creating /home/john/Documents/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages/turtlesim-catch-them-all.egg-link (link to .)
+[0.562s] Installing turtle_controller script to /home/john/Documents/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.562s] Installing turtle_spawner script to /home/john/Documents/ros2_ws/install/turtlesim_catch_them_all/lib/turtlesim_catch_them_all
+[0.562s] 
+[0.563s] Installed /home/john/Documents/ros2_ws/build/turtlesim_catch_them_all
+[0.563s] running install_data
+[0.563s] copying package.xml -> /home/john/Documents/ros2_ws/install/turtlesim_catch_them_all/share/turtlesim_catch_them_all
+[0.583s] Invoked command in '/home/john/Documents/ros2_ws/build/turtlesim_catch_them_all' returned '0': CMAKE_PREFIX_PATH=/home/john/Documents/ros2_ws/install/my_robot_interface:/home/john/Documents/ros2_ws/install/my_robot_bringup:/home/john/Documents/ros2_ws/install/my_cpp_pkg LD_LIBRARY_PATH=/home/john/Documents/ros2_ws/install/my_robot_interface/lib:/usr/local/cuda/lib64:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/john/Documents/ros2_ws/build/turtlesim_catch_them_all/prefix_override:/home/john/Documents/ros2_ws/install/turtlesim_catch_them_all/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/john/Documents/ros2_ws/build/turtlesim_catch_them_all/build --no-deps install_data
